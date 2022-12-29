@@ -1,0 +1,30 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.hero {
+    background: rgba(43, 111, 243, 0.05);
+    height: 800px;
+    width: 100%;
+}
+
+.hero span {
+    position: absolute;
+}
+
+.hero span:nth-child(1) {
+    left: 5px;
+}
+
+.hero span:nth-child(2) {
+    right: -0;
+}
+
+.hero h1 {
+padding-top: 58px;
+font-family: Rubik;
+font-size: 24px;
+font-weight: 500;
+}
+
+
