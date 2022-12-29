@@ -7,9 +7,9 @@ function Navbar() {
   return (
     <div className={style.Navbar}>
       <div className={style.container}>
-        <div className={style.navcontent}>
-          <div className={style.column}>
-            <div  className={style.logo}>
+        <div className={style.navcontent}>{/*navcontent*/}
+          <div className={style.column}> {/*column*/}
+            <div  className={style.logo}> 
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
               <circle cx="20" cy="20" r="20" fill="url(#pattern0)"/>
               <defs>
@@ -28,9 +28,9 @@ function Navbar() {
                 <li>PROTECTION</li>
               </ul> 
             </div>
-          </div>
+          </div> {/*column*/}
           <div className={style.date}>Updated: May 22, 2020</div>
-        </div>
+        </div>{/*navcontent*/}
       </div>  
     </div>
   )

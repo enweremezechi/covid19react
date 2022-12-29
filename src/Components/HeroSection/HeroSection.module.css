@@ -1,9 +1,10 @@
 .container{
     max-width: 1200px;
     margin: auto;
+    padding: 0 10px;
 }
 .hero {
-    background: rgba(43, 111, 243, 0.05);
+    background: #E5E5E5;
     height: 800px;
     width: 100%;
 }
