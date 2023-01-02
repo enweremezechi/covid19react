@@ -3,6 +3,11 @@ height: 79px;
 display: flex;
 align-items: center;
 background: #ffffff;
+position: fixed;
+top: 0;
+bottom: 0;
+z-index: 7;
+width: 100%;
 }
 
 .container {

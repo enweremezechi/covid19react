@@ -5,11 +5,11 @@ import style from './Navbar.module.css';
 
 function Navbar() {
   return (
-    <div className={style.Navbar}>
-      <div className={style.container}>
+    <div className={style.Navbar}>{/*navbar*/}
+      <div className={style.container}>{/*container*/}
         <div className={style.navcontent}>{/*navcontent*/}
           <div className={style.column}> {/*column*/}
-            <div  className={style.logo}> 
+            <div  className={style.logo}> {/*logo*/}
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
               <circle cx="20" cy="20" r="20" fill="url(#pattern0)"/>
               <defs>
@@ -20,19 +20,19 @@ function Navbar() {
               </defs>
               </svg>
               <h1>Cov19Strain</h1>
-            </div>
-            <div className={style.navlinks}>
+            </div>{/*logo*/}
+            <div className={style.navlinks}>{/*navlinks*/}
               <ul>
                 <li>HOME</li>
                 <li>SYMPTOMS</li>
                 <li>PROTECTION</li>
               </ul> 
-            </div>
+            </div>{/*navlinks*/}
           </div> {/*column*/}
           <div className={style.date}>Updated: May 22, 2020</div>
         </div>{/*navcontent*/}
-      </div>  
-    </div>
+      </div>  {/*container*/}
+    </div> 
   )
 }
 
